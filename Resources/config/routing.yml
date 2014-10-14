@@ -1,0 +1,3 @@
+ppecheny_ajax_form:
+    pattern:  ppecheny/ajax/form
+    defaults: { _controller: PpechenyAjaxBundle:Form:index }

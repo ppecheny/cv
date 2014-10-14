@@ -1,0 +1,18 @@
+{
+    "name" : "ppecheny/ajaxbundle",
+    "description" : "Ajax bundle",
+    "keywords" : ["ajax bundle"],
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "ppecheny",
+        "email" : "ppecheny@gmail.com"
+    }],
+    "license" : "MIT",
+    "minimum-stability": "dev",
+    "autoload" : {
+        "psr-0" : {
+            "Ppecheny\\AjaxBundle" : ""
+        }
+    },
+    "target-dir" : "Ppecheny/AjaxBundle"
+}

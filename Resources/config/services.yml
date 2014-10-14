@@ -1,0 +1,9 @@
+parameters:
+    ppecheny_ajax.twig.ajax_form_extension.class: Ppecheny\AjaxBundle\Twig\AjaxFormExtension
+
+services:
+    ppecheny_ajax.twig.ajax_form_extension:
+        class: %ppecheny_ajax.twig.ajax_form_extension.class%
+        arguments: [@service_container]
+        tags:
+            - { name: twig.extension }
